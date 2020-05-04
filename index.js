@@ -161,14 +161,13 @@ Baby.prototype.play = function() {
 
   In your own words explain the four principles for the "this" keyword below:
 
-  1. Window/Global - 'this is placed globally, the value of 'this' will be the window/console object
+    A. Window/Global - 'this is placed globally, the value of 'this' will be the window/console object
 
-  2. Implicit - a function is called by a preceding dot, the object of the dot gets 'this'
+  	B. Implicit - a function is called by a preceding dot, the object of the dot gets 'this'
 
-  3. New - 'new' whenever a constructor function is used, 'this' refers to the specific instance of the object that is created & returned by the constructor function
+  	C. New - 'new' whenever a constructor function is used, 'this' refers to the specific instance of the object       that is created & returned by the constructor function
 
-  4. Explicit - call or apply method is used, 'this' is explicitly defined
-
+  	D. Explicit - call or apply method is used, 'this' is explicitly defined
 */
 
 
